@@ -16,19 +16,15 @@ Proyek ini terdiri dari beberapa folder utama sebagai berikut:
 Folder `data` digunakan untuk menyimpan **data mentah** yang digunakan dalam sistem sosial media. Format yang digunakan adalah sebagai berikut:
 
 - **Komentar:**
-// <CommentID>|<PostID>|<UserID>|<Timestamp>|<Konten>
 Menyimpan data komentar pada sebuah post, dengan `CommentID` yang unik, `PostID` yang terkait, `UserID` dari pengguna yang mengomentari, timestamp, dan konten komentar.
 
 - **Follow:** 
-// <FollowerID>|<FolloweeID>
 Menyimpan data hubungan follow antar pengguna, dengan `FollowerID` dan `FolloweeID`.
 
 - **Postingan:**
-// <PostID>|<UserID>|<Timestamp>|<Konten>
 Menyimpan data postingan dari pengguna, dengan `PostID` yang unik, `UserID` dari pembuat postingan, timestamp, dan konten postingan.
 
 - **Pengguna:**
-// <ID>|<Username>|<Password>
 Menyimpan data pengguna, termasuk ID, username, dan password.
 
 ### 2. **service**
